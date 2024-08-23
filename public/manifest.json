@@ -1,8 +1,8 @@
 {
-  "short_name": "Taylor Swift Lyric Search",
-  "name": "Taylor Swift Lyric Search",
+  "short_name": "Nick Cave Lyric Search",
+  "name": "Nick Cave and the Bad Seeds and Grinderman Lyric Search",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
 }
