@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -23,7 +23,6 @@ body {
 }
 
 .header {
-  font-family: "Roboto Slab", serif;
   background-color: lavender;
-  font-weight: 300;
+  font-weight: 400;
 }
