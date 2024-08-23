@@ -1,6 +1,6 @@
 # NC&TBS and Grinderman Lyric Search
 
-Template from [Taylor Swift lyrics searcher](https://shaynak.github.io/taylor-swift) with my hand-compiled [Nick Cave lyrics dataset](https://github.com/kdlrose/nick-cave-lyrics) instead of scraped from Genius API.
+Template from [Taylor Swift lyrics searcher](https://shaynak.github.io/taylor-swift) with my [Nick Cave lyrics dataset](https://github.com/kdlrose/nick-cave-lyrics) hand-copied from his official website (instead of scraped from Genius API).
 
 ## Changelog
 
