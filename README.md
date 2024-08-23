@@ -6,7 +6,9 @@ Template from [Taylor Swift lyrics searcher](https://shaynak.github.io/taylor-sw
 
 ### 2024 Aug 23
 
-- Edited `src/components/QueriedLyrics.js`.
+- Edited `constants.js` to reflect *Abattoir Blues / The Lyre of Orpheus* change
+    in submodule.
+- Edited `src/components/QueriedLyrics.js` to fix broken link to submodule.
 
 ### 2024 Aug 22
 
