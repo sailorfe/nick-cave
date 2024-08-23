@@ -1,15 +1,13 @@
 // @flow
-export const ArtistName = "taylor swift";
+export const ArtistName = "nick cave";
 
 export const ModalText =
-  'Search for a word or a phrase and see all the places Taylor Swift \
-  has used it in her music! To search for multiple words or phrases, use \
-  a comma between them. Use a * for wildcard search. Scraped data can be found \
-  <a href="https://github.com/shaynak/taylor-swift-lyrics">here</a>. \
-  Curious about what people are searching? See our \
-  <a href="https://shaynak-taylor-swift.goatcounter.com/">analytics</a>! \
-  <br><br>Lyrics will generally be updated within 24 hours of an album release. \
-  <br><br>Last updated: 5/19/24. First published 12/28/20.';
+  'Search for a word or phrase in official lyrics Nick Cave has written \
+  for The Bad Seeds and Grinderman. To search for multipe words or phrases, \
+  use a comma between them. Use * for wildcard search. The dataset copied \
+  from his official website can be found \
+  <a href="https://github.com/kdlrose/nick-cave-lyrics">here</a>. \
+  <br><br>First published 23 Aug 2024.';
 
 // Ordered list of albums for selector - keep in sync with album map
 export const ALBUMS = [
