@@ -1,12 +1,14 @@
 # NC&TBS and Grinderman Lyric Search
 
-description
+Template from [Taylor Swift lyrics searcher](https://shaynak.github.io/taylor-swift) with my hand-compiled [Nick Cave lyrics dataset](https://github.com/kdlrose/nick-cave-lyrics) instead of scraped from Genius API.
 
----
-keeping shayna's thing here for noww
+## Changelog
 
-# Taylor Swift Lyrics Scraper
+### 2024 Aug 23
 
-This is the source code for a [Taylor Swift lyrics searcher](https://shaynak.github.io/taylor-swift). It is easily modifiable for any artist -- simply update `constants.js`, `manifest.json`, `package.json`, and `index.html` and insert a JSON containing the artist's lyrics as a submodule!
+- Edited `src/components/QueriedLyrics.js`.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 2024 Aug 22
+
+- Added [kdlrose/nick-cave-lyrics](https://github.com/kdlrose/nick-cave-lyrics) as a submodule.
+- Edited `constants.js`, `manifest.json`, `package.json`, and `index.html`.
