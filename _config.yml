@@ -1,0 +1,31 @@
+title: Nick Cave Lyric Search
+email: krdlrosa@gmail.com
+description: >-
+  Search all lyrics Nick Cave has published for The Bad Seeds and
+  Grinderman.
+baseurl: "/nick-cave"
+url: "https://kdlrose.github.io"
+copyright: "Last updated 2024 Aug 24"
+colophon:
+  Made by <a href="https://kdlrose.github.io">Kathryn de la Rosa</a> using  
+  <a href="https://jekyllrb.com">Jekyll</a>.
+
+# Build settings
+markdown: kramdown
+remote_theme: kdlrose/jekyll-theme-tupelo
+plugin:
+  - github-pages
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
