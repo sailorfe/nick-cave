@@ -16,11 +16,14 @@
 title: Nick Cave lyric search
 email: krdlrosa@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Search Nick Cave lyrics for The Bad Seeds and Grinderman
+  Search lyrics Nick Cave has written for The Bad Seeds, Grinderman, and Carnage
 baseurl: "/nick-cave"
 url: "https://kdlrose.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kdlrose
-github_username: kdlrose
+dataset: "https://github.com/kdlrose/nick-cave-lyrics"
+nick: "https://nickcave.com/lyrics"
+copyright: "First published: 2024 Aug"
+colophon: >-
+  Made by <a href="https://kdlrose.github.io">Kathryn de la Rosa</a> using <a href="https://jekyllrb.com/">Jekyll</a> and lyrics directly compiled from <a href="https://nickcave.com/lyrics">nickcave.com</a>. You can view the dataset <a href="https://github.com/kdlrose/nick-cave-lyrics">here</a>.
 
 # Build settings
 markdown: kramdown
