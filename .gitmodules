@@ -1,6 +1,0 @@
-[submodule "src/taylor-swift-lyrics"]
-	path = src/taylor-swift-lyrics
-	url = https://github.com/shaynak/taylor-swift-lyrics.git
-[submodule "src/nick-cave-lyrics"]
-	path = src/nick-cave-lyrics
-	url = git@github.com:kdlrose/nick-cave-lyrics.git
