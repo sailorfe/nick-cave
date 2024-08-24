@@ -18,3 +18,8 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+gem "rexml", "~> 3.3"
+gem "concurrent-ruby", "~> 1.3"
+gem "activesupport", "~> 7.2"
+gem "minitest", "~> 5.25"
