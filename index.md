@@ -4,7 +4,3 @@
 
 layout: home
 ---
-
-hello
-
-{% include song-table.html %}
