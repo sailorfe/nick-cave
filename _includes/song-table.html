@@ -1,0 +1,12 @@
+<table style="width: 100%;">
+    <tr>
+        <th style="width: 50%">Song</th>
+        <th style="width: 50%">Album</th>
+    </tr>
+    {% for song in site.data.songs %}
+    <tr>
+        <td style="width: 50%">{{ song.title }}</td>
+        <td style="width: 50%"><em>{{ song.album }}</em></td>
+    </tr>
+    {% endfor %}
+</table>

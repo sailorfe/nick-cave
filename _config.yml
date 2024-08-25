@@ -5,10 +5,11 @@ description: >-
   Grinderman.
 baseurl: "/nick-cave"
 url: "https://kdlrose.github.io"
-copyright: "Last updated 2024 Aug 24"
+copyright: "Under construction 2024 Aug 24"
 colophon:
   Made by <a href="https://kdlrose.github.io">Kathryn de la Rosa</a> using  
-  <a href="https://jekyllrb.com">Jekyll</a>.
+  <a href="https://jekyllrb.com">Jekyll</a>. View the dataset
+  <a href="https://github.com/kdlrose/nick-cave-lyrics">here</a>.
 
 # Build settings
 markdown: kramdown
