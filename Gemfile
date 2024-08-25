@@ -1,7 +1,7 @@
 gem "jekyll", "~> 4.3.3"
 
 group :jekyll_plugins do
-  gem "jekyll-remote-theme", "~> 0.4.3""
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
