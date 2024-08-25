@@ -1,0 +1,3 @@
+[submodule "_data/nick-cave-lyrics"]
+	path = _data/nick-cave-lyrics
+	url = git@github.com:kdlrose/nick-cave-lyrics.git
