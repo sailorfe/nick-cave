@@ -9,7 +9,8 @@ function App() {
 
     return (
         <div className="App">
-            <input type="text" placeholder="search lyrics..." onChange={e=>setSearchTerm(e.target.value)} />
+            <input type="text" placeholder="search word or phrase..." onChange={e=>setSearchTerm(e.target.value)} />
+            <section>
             {JSONDATA.filter((val)=>{
                 if(searchTerm == ""){
                     return 
@@ -28,6 +29,7 @@ function App() {
                     </article>
             })
             }
+            </section>
         </div>
     );
 }
