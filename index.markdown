@@ -3,10 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-csv_reader:
-    converters:
-        - numeric
-        - datetime
 ---
 
-{% include song-table.html %}
+{% include search.html %}
