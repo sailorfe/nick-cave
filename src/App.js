@@ -1,5 +1,5 @@
-import './App.css';
-import './index.css';
+import './styles/App.css';
+import './styles/index.css';
 import JSONDATA from '../src/nick-cave-lyrics/lyrics.json';
 import React, {useState} from 'react';
 
@@ -9,6 +9,7 @@ function App() {
 
     return (
         <div className="App">
+            <p>currently includes Nick Cave & The Bad Seeds through <em>Ghosteen</em>, Grinderman, and <em>Carnage</em></p>
             <input type="text" placeholder="search word or phrase..." onChange={e=>setSearchTerm(e.target.value)} />
             <section>
             {JSONDATA.filter((val)=>{
