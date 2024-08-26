@@ -1,10 +1,84 @@
-body 
-    margin: 0
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+$darkMode: true
+
+@mixin darkMode
+    @if($darkMode)
+        @media(prefers-color-scheme: dark)
+            @content      
+
+html
+    background-color: whitesmoke
+    color: dimgray
+    font-family: "EB Garamond", serif
+    font-size: 18px
+    line-height: 1.3
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
 
-code 
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+    @include darkMode
+        background-color: black
+        color: whitesmoke
+
+body
+    max-width: 600px
+    margin: 3em auto
+
+a
+    color: inherit
+
+a:hover
+    background-color: darkred
+    color: whitesmoke
+    text-decoration: none
+
+    @include darkMode
+        background-color: whitesmoke
+        color: darkred
+
+header
+    a
+        text-decoration: none
+
+header, section, article, footer
+    text-align: center
+    width: 100%
+    margin: 8em auto
+
+article
+    font-size: 1.12em
+    margin: 2em 0
+
+h1
+    font-size: 4em
+    line-height: 1.2
+    margin: 0
+
+h2
+    font-size: .9em
+    text-transform: uppercase
+
+p
+    max-width: 40em
+    margin: 1em auto
+
+ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+
+input
+    padding: 1em
+    font-size: 0.8em
+    text-align: center
+    width: 100%
+    margin: auto
+    border-radius: 24px
+    font-family: "Courier", "Courier New", monospace
+    border: 3px solid darkred 
+
+input:hover
+    border: 3px solid dimgray
+
+    @include darkMode
+        border: 3px solid whitesmoke
 
 /*# sourceMappingURL=index.sass.map */
