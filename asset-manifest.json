@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nick-cave/static/css/main.a81caca5.css",
-    "main.js": "/nick-cave/static/js/main.62aae6d0.js",
+    "main.css": "/nick-cave/static/css/main.93fdf599.css",
+    "main.js": "/nick-cave/static/js/main.8c5fdf30.js",
     "static/js/453.930e583f.chunk.js": "/nick-cave/static/js/453.930e583f.chunk.js",
     "index.html": "/nick-cave/index.html",
-    "main.a81caca5.css.map": "/nick-cave/static/css/main.a81caca5.css.map",
-    "main.62aae6d0.js.map": "/nick-cave/static/js/main.62aae6d0.js.map",
+    "main.93fdf599.css.map": "/nick-cave/static/css/main.93fdf599.css.map",
+    "main.8c5fdf30.js.map": "/nick-cave/static/js/main.8c5fdf30.js.map",
     "453.930e583f.chunk.js.map": "/nick-cave/static/js/453.930e583f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81caca5.css",
-    "static/js/main.62aae6d0.js"
+    "static/css/main.93fdf599.css",
+    "static/js/main.8c5fdf30.js"
   ]
 }
