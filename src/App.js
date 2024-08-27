@@ -28,7 +28,7 @@ function App() {
                         </ul>
                         <ol>
                             <li><em>{val.album}</em></li>
-                            <li>{val.artist}</li>
+                            <li>{val.artist}, {val.year}</li>
                         </ol>
                     </article>
             })
