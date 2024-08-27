@@ -28,13 +28,15 @@ a
     text-decoration: underline
     text-decoration-color: darkred
 
+    @include darkMode
+        text-decoration-color: indianred
+
 a:hover
     color: darkred
     text-decoration: none
 
     @include darkMode
-        color: inherit
-        background-color: darkred
+        color: indianred
 
 header
     a
@@ -48,6 +50,9 @@ article
     padding: 2em
     border-bottom: 2px solid darkred
 
+    @include darkMode
+        border-bottom: 2px solid indianred
+
 h1
     font-size: 2.5em
     line-height: 1.1
@@ -57,12 +62,22 @@ h2
     font-size: .9em
     text-transform: uppercase
 
+h3
+    font-size: .9em
+    display: inline-block
+    margin: 2em 0.5em 1em
+    color: darkred
+
+    @include darkMode
+        color: indianred
+
 footer
     max-width: 40em
     margin: 3em auto
-    font-size: 0.9em
 
 article
+    font-size: 1.1em
+
     ul
         list-style-type: none
         padding: 0
@@ -70,7 +85,7 @@ article
 
 input
     padding: 0.8em
-    font-size: 0.8em
+    font-size: 0.9em
     text-align: center
     width: 84%
     margin: 2em auto
@@ -82,6 +97,7 @@ input
     
     @include darkMode
         background-color: black
+        border: 3px solid indianred
         color: whitesmoke
 
 input:hover
@@ -91,6 +107,7 @@ input:hover
 
     @include darkMode
         border: 3px solid whitesmoke
+        background-color: indianred
 
 section
     max-height: 60vh
@@ -101,6 +118,6 @@ section
     scrollbar-color: darkred whitesmoke
 
     @include darkMode
-        scrollbar-color: darkred black
+        scrollbar-color: indianred black
 
 /*# sourceMappingURL=index.sass.map */

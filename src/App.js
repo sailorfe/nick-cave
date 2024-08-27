@@ -9,7 +9,7 @@ function App() {
 
     return (
         <div className="App">
-            <p>currently includes Nick Cave & The Bad Seeds through <em>Ghosteen</em>, Grinderman, and <em>Carnage</em></p>
+            <p>includes The Birthday Party, Nick Cave & The Bad Seeds 1984–2019, Grinderman, and <em>Carnage</em></p>
             <input type="text" placeholder="search word or phrase..." onChange={e=>setSearchTerm(e.target.value)} />
             <section>
             {JSONDATA.filter((val)=>{
@@ -21,12 +21,13 @@ function App() {
                 }
             }).map((val,key)=>{
                 return <article>
-                        <h2>{val.song} – <em>{val.album}</em></h2>
+                        <h2>{val.song}</h2>
                         <ul>
                             <li>{val.prev}</li>
                             <li>{val.lyric}</li>
                             <li>{val.next}</li>
                         </ul>
+                        <h3>{val.artist}</h3><h3><em>{val.album}</em></h3>
                     </article>
             })
             }
