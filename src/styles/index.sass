@@ -44,7 +44,7 @@ header
 
 header, footer
     width: 100%
-    margin: 3em auto
+    margin: auto
 
 article
     padding: 2em
@@ -54,9 +54,10 @@ article
         border-bottom: 2px solid indianred
 
 h1
-    font-size: 2.5em
+    font-size: 3em
     line-height: 1.1
-    margin: 0
+    margin: 0 auto
+    max-width: 6em
 
 h2
     font-size: .9em
@@ -64,60 +65,11 @@ h2
 
 h3
     font-size: .9em
-    display: inline-block
-    margin: 2em 0.5em 1em
     color: darkred
+    margin: 2em auto
+    max-width: 30em
 
     @include darkMode
         color: indianred
-
-footer
-    max-width: 40em
-    margin: 3em auto
-
-article
-    font-size: 1.1em
-
-    ul
-        list-style-type: none
-        padding: 0
-        margin: 0
-
-input
-    padding: 0.8em
-    font-size: 0.9em
-    text-align: center
-    width: 84%
-    margin: 2em auto
-    border-radius: 28px
-    font-family: "Courier Prime", monospace
-    font-weight: 700
-    border: 3px solid darkred 
-    background-color: white
-    
-    @include darkMode
-        background-color: black
-        border: 3px solid indianred
-        color: whitesmoke
-
-input:hover
-    border: 3px solid dimgray
-    background-color: darkred
-    color: whitesmoke
-
-    @include darkMode
-        border: 3px solid whitesmoke
-        background-color: indianred
-
-section
-    max-height: 60vh
-    overflow-y: scroll
-    overflow-x: hidden
-    margin: 2em auto
-    scrollbar-width: thin
-    scrollbar-color: darkred whitesmoke
-
-    @include darkMode
-        scrollbar-color: indianred black
 
 /*# sourceMappingURL=index.sass.map */

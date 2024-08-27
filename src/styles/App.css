@@ -1,38 +1,76 @@
 .App {
   text-align: center;
+  margin: 2em auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+article {
+  font-size: 0.9em;
+  padding: 1em 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+article ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+article ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 2em 0 1em;
+  color: darkred;
+  font-size: 0.8em;
+}
+@media (prefers-color-scheme: dark) {
+  article ol {
+    color: indianred;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  padding: 0.8em;
+  font-size: 0.8em;
+  text-align: center;
+  width: 84%;
+  margin: 2em auto;
+  border-radius: 28px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  border: 3px solid darkred;
+  background-color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (prefers-color-scheme: dark) {
+  input {
+    background-color: black;
+    border: 3px solid indianred;
+    color: whitesmoke;
   }
 }
+
+input:hover {
+  border: 3px solid dimgray;
+  background-color: darkred;
+  color: whitesmoke;
+}
+@media (prefers-color-scheme: dark) {
+  input:hover {
+    border: 3px solid whitesmoke;
+    background-color: indianred;
+  }
+}
+
+section {
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 2em auto;
+  scrollbar-width: thin;
+  scrollbar-color: darkred whitesmoke;
+}
+@media (prefers-color-scheme: dark) {
+  section {
+    scrollbar-color: indianred black;
+  }
+}
+
+
+
+/*# sourceMappingURL=App.css.map */

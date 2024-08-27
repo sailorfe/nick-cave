@@ -9,7 +9,6 @@ function App() {
 
     return (
         <div className="App">
-            <p>includes The Birthday Party, Nick Cave & The Bad Seeds 1984–2019, Grinderman, and <em>Carnage</em></p>
             <input type="text" placeholder="search word or phrase..." onChange={e=>setSearchTerm(e.target.value)} />
             <section>
             {JSONDATA.filter((val)=>{
@@ -27,7 +26,10 @@ function App() {
                             <li>{val.lyric}</li>
                             <li>{val.next}</li>
                         </ul>
-                        <h3>{val.artist}</h3><h3><em>{val.album}</em></h3>
+                        <ol>
+                            <li><em>{val.album}</em></li>
+                            <li>{val.artist}</li>
+                        </ol>
                     </article>
             })
             }
