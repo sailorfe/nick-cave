@@ -1,6 +1,6 @@
 # Nick Cave lyric search
 
-Inspired by [shaynak/taylor-swift](https://github.com/shaynak/taylor-swift).
+Inspired by [shaynak/taylor-swift](https://github.com/shaynak/taylor-swift) with my hand-copied [kdlrose/nick-cave-lyrics](https://github.com/kdlrose/nick-cave-lyrics) dataset.
 
 ## Tasks
 
@@ -9,15 +9,10 @@ Inspired by [shaynak/taylor-swift](https://github.com/shaynak/taylor-swift).
 - Make curly quotes/apostrophes interchangeable with `''`. Craziest culprit is
     "rock'n'roller" on "Babe, I'm On Fire" versus "king of rock'n'roll" on "The
     Spinning Song"
-- Filter by artist if not album between TBS, Grinderman, Cave/Ellis
+- Filter by artist if not album between TBP, TBS, Grinderman, Cave/Ellis
 - Get rid of partial words, e.g. "hair" returns "chair," but I would still want
     the begining of the word to work? "gun" shouldn't return "begun," et cetera.
-
-## Changelog
-
-### 2024-08-26
-
-- Sucessful deployment
+- Make results modal for instances of album-less releases like "Release the Bats."
 
 ## Resources
 
