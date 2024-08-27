@@ -1,6 +1,16 @@
-$accent-day: darkred
-$accent-night: indianred
-$bg-day: whitesmoke
-$bg-night: black
-$fg-day: dimgray
-$fg-night: #whitesmoke
+$darkMode: true
+
+@mixin darkMode
+    @if($darkMode)
+        @media(prefers-color-scheme: dark)
+            @content
+
+:root
+    --accent: darkred
+    --bg-color: whitesmoke
+    --fg-color: dimgray
+
+    @include darkMode
+        --accent: indianred
+        --bg-color: black
+        --color: whitesmoke

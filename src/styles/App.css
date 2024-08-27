@@ -1,3 +1,16 @@
+:root {
+  --accent: darkred;
+  --bg-color: whitesmoke;
+  --fg-color: dimgray;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: indianred;
+    --bg-color: black;
+    --color: whitesmoke;
+  }
+}
+
 .App {
   text-align: center;
   margin: 2em auto;
@@ -16,13 +29,9 @@ article ol {
   list-style-type: none;
   padding: 0;
   margin: 2em 0 1em;
-  color: darkred;
+  color: var(--accent);
   font-size: 0.8em;
-}
-@media (prefers-color-scheme: dark) {
-  article ol {
-    color: indianred;
-  }
+  font-weight: 600;
 }
 
 input {
@@ -34,27 +43,13 @@ input {
   border-radius: 28px;
   font-family: "Courier Prime", monospace;
   font-weight: 700;
-  border: 3px solid darkred;
-  background-color: white;
-}
-@media (prefers-color-scheme: dark) {
-  input {
-    background-color: black;
-    border: 3px solid indianred;
-    color: whitesmoke;
-  }
+  border: 3px solid var(--accent);
 }
 
 input:hover {
-  border: 3px solid dimgray;
-  background-color: darkred;
-  color: whitesmoke;
-}
-@media (prefers-color-scheme: dark) {
-  input:hover {
-    border: 3px solid whitesmoke;
-    background-color: indianred;
-  }
+  border: 3px solid var(--fg-color);
+  background-color: var(--accent);
+  color: var(--bg-color);
 }
 
 section {
@@ -63,12 +58,7 @@ section {
   overflow-x: hidden;
   margin: 2em auto;
   scrollbar-width: thin;
-  scrollbar-color: darkred whitesmoke;
-}
-@media (prefers-color-scheme: dark) {
-  section {
-    scrollbar-color: indianred black;
-  }
+  scrollbar-color: var(--accent) var(--bg-color);
 }
 
 

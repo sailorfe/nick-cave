@@ -1,44 +1,38 @@
-html {
-  background-color: whitesmoke;
-  color: dimgray;
-  font-family: "EB Garamond", serif;
-  font-size: 18px;
-  line-height: 1.3;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --accent: darkred;
+  --bg-color: whitesmoke;
+  --fg-color: dimgray;
 }
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: black;
-    color: whitesmoke;
+  :root {
+    --accent: indianred;
+    --bg-color: black;
+    --color: whitesmoke;
   }
 }
 
 body {
-  max-width: 800px;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+  max-width: 960px;
   margin: 3em auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: darkred;
-}
-@media (prefers-color-scheme: dark) {
-  a {
-    text-decoration-color: indianred;
-  }
+  text-decoration-color: var(--accent);
 }
 
 a:hover {
-  color: darkred;
+  color: var(--accent);
   text-decoration: none;
-}
-@media (prefers-color-scheme: dark) {
-  a:hover {
-    color: indianred;
-  }
 }
 
 header a {
@@ -52,12 +46,7 @@ header, footer {
 
 article {
   padding: 2em;
-  border-bottom: 2px solid darkred;
-}
-@media (prefers-color-scheme: dark) {
-  article {
-    border-bottom: 2px solid indianred;
-  }
+  border-bottom: 2px solid var(--accent);
 }
 
 h1 {
@@ -74,14 +63,9 @@ h2 {
 
 h3 {
   font-size: 0.9em;
-  color: darkred;
+  color: var(--accent);
   margin: 2em auto;
   max-width: 30em;
-}
-@media (prefers-color-scheme: dark) {
-  h3 {
-    color: indianred;
-  }
 }
 
 

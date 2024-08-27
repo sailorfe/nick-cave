@@ -1,9 +1,4 @@
-$darkMode: true
-
-@mixin darkMode
-    @if($darkMode)
-        @media(prefers-color-scheme: dark)
-            @content
+@import "palette"
 
 .App 
     text-align: center
@@ -22,11 +17,9 @@ article
         list-style-type: none
         padding: 0
         margin: 2em 0 1em
-        color: darkred
+        color: var(--accent)
         font-size: .8em
-
-        @include darkMode
-            color: indianred
+        font-weight: 600
 
 input
     padding: 0.8em
@@ -37,22 +30,12 @@ input
     border-radius: 28px
     font-family: "Courier Prime", monospace
     font-weight: 700
-    border: 3px solid darkred 
-    background-color: white
+    border: 3px solid var(--accent) 
     
-    @include darkMode
-        background-color: black
-        border: 3px solid indianred
-        color: whitesmoke
-
 input:hover
-    border: 3px solid dimgray
-    background-color: darkred
-    color: whitesmoke
-
-    @include darkMode
-        border: 3px solid whitesmoke
-        background-color: indianred
+    border: 3px solid var(--fg-color)
+    background-color: var(--accent)
+    color: var(--bg-color)
 
 section
     max-height: 80vh
@@ -60,9 +43,6 @@ section
     overflow-x: hidden
     margin: 2em auto
     scrollbar-width: thin
-    scrollbar-color: darkred whitesmoke
-
-    @include darkMode
-        scrollbar-color: indianred black
+    scrollbar-color: var(--accent) var(--bg-color)
 
 /*# sourceMappingURL=App.sass.map */
