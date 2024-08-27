@@ -1,13 +1,13 @@
 :root {
-  --accent: darkred;
+  --accent: firebrick;
   --bg-color: whitesmoke;
   --fg-color: dimgray;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: indianred;
+    --accent: firebrick;
     --bg-color: black;
-    --color: whitesmoke;
+    --fg-color: mistyrose;
   }
 }
 

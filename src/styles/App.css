@@ -1,16 +1,3 @@
-:root {
-  --accent: darkred;
-  --bg-color: whitesmoke;
-  --fg-color: dimgray;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent: indianred;
-    --bg-color: black;
-    --color: whitesmoke;
-  }
-}
-
 .App {
   text-align: center;
   margin: 2em auto;
@@ -32,6 +19,7 @@ article ol {
   color: var(--accent);
   font-size: 0.8em;
   font-weight: 600;
+  font-family: "Courier Prime", monospace;
 }
 
 input {
@@ -44,6 +32,8 @@ input {
   font-family: "Courier Prime", monospace;
   font-weight: 700;
   border: 3px solid var(--accent);
+  background-color: var(--bg-color);
+  color: var(--fg-color);
 }
 
 input:hover {
