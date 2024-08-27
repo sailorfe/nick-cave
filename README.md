@@ -2,9 +2,18 @@
 
 Inspired by [shaynak/taylor-swift](https://github.com/shaynak/taylor-swift) with my hand-copied [kdlrose/nick-cave-lyrics](https://github.com/kdlrose/nick-cave-lyrics) dataset.
 
-## Tasks
+## Log
+
+### 2024-08-27
+
+#### Changes
+
+- Added year to results.
+- Moved app styles from `index.sass`.
 
 ### 2024-08-26
+
+#### Tasks
 
 - Make curly quotes/apostrophes interchangeable with `''`. Craziest culprit is
     "rock'n'roller" on "Babe, I'm On Fire" versus "king of rock'n'roll" on "The
