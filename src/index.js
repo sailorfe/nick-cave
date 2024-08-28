@@ -16,7 +16,7 @@ root.render(
         <App />
     </React.StrictMode>
     <footer>
-        <p>Last updated 2024/08/27. First published 2024/08/26.</p>
+        <p>Last updated 2024/08/28. First published 2024/08/26.</p>
         <p>Made by <a href="https://kdlrose.github.io">Kathryn de la
                 Rosa</a> using <a href="http://reactjs.org/">React</a>. See the
             <a href="https://github.com/kdlrose/nick-cave">changelog</a> and <a
