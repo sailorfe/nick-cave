@@ -44,6 +44,11 @@ header, footer {
   margin: 3em auto;
 }
 
+footer p {
+  max-width: 40em;
+  margin: 1em auto;
+}
+
 article {
   padding: 2em;
   border-bottom: 2px solid var(--accent);
@@ -65,7 +70,7 @@ h3 {
   font-size: 1.1em;
   color: var(--accent);
   margin: 1em auto;
-  max-width: 30em;
+  max-width: 20em;
 }
 
 
