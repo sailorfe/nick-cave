@@ -4,6 +4,10 @@ Inspired by [shaynak/taylor-swift](https://github.com/shaynak/taylor-swift) with
 
 ## Log
 
+### 2024-09-10
+
+- Added *Wild God*.
+
 ### 2024-08-27
 
 #### Changes
