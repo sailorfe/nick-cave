@@ -17,7 +17,7 @@ root.render(
     <footer>
         <p>Last updated 2024/09/10. First published 2024/08/26.</p>
         <p>
-            Made by <a href="https://kdlrose.github.io">Kathryn de la Rosa</a> using <a href="http://reactjs.org/">React</a>. See the <a href="https://github.com/kdlrose/nick-cave">changelog</a> and <a href="https://github.com/kdlrose/nick-cave-lyrics">dataset</a>. Lyrics compiled from Nick Cave's <a href="https://nickcave.com/lyrics">official website</a> and <em>Nick Cave: The Complete Lyrics 1978–2013</em>.
+            Made with <a href="http://reactjs.org/">React</a>. See the <a href="https://github.com/sailorfe/nick-cave">changelog</a> and <a href="https://github.com/sailorfe/nick-cave-lyrics">dataset</a>. Lyrics compiled from Nick Cave's <a href="https://nickcave.com/lyrics">official website</a> and <em>Nick Cave: The Complete Lyrics 1978–2013</em>.
         </p>
     </footer>
     </div>
